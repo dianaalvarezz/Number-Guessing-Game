@@ -25,5 +25,8 @@ while guesses < math.log(uppernumber - lowernumber + 1, 2):
         print("The number you guesses is too small!")
     elif numtoguess < guess:
         print("The number you guesses is too large!")
+
+if guesses > math.log(uppernumber - lowernumber + 1, 2):
+        print("\nThe number was ", numtoguess, ". Nice try!")
         
           
